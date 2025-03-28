@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ontario Parks</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Header Component -->
+  <header id="header"></header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="assets/images/video-placeholder.jpg" alt="Park Video Preview">
+    <div class="hero-content">
+      <h1>Ontario Parks</h1>
+      <p>Find the perfect park, book your campsite, and experience the outdoors like never before.</p>
+      <a href="#" class="btn">Book Now</a>
+    </div>
+  </section>
+
+  <main>
+    <!-- Top Parks Section -->
+    <section class="section">
+      <div class="section-header">
+        <h2>Top Parks to Visit This Season</h2>
+        <a href="#" class="view-all">View All</a>
+      </div>
+      <div class="card-grid" id="top-parks"></div>
+    </section>
+
+    <!-- Camping Guides Section -->
+    <section class="section">
+      <h2>Your Guide to a Perfect Camping Trip</h2>
+      <div class="card-grid" id="camping-guides"></div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="section split">
+      <div>
+        <h2>What’s Happening in Ontario Parks?</h2>
+        <a href="#" class="btn">Explore All Events</a>
+      </div>
+      <div class="card-grid mini" id="happening-events"></div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="section testimonial">
+      <h2>What Our Visitors Say</h2>
+      <blockquote>
+        <p>“Perfect for First-Time Campers”</p>
+        <p>As someone new to camping, I was a bit nervous, but Ontario Parks made it so easy... </p>
+        <footer>— Ayesha K., Toronto</footer>
+      </blockquote>
+    </section>
+
+    <!-- Nature Protection Section -->
+    <section class="section">
+      <div class="section-header">
+        <h2>Protecting Nature for Future Generations</h2>
+        <a href="#" class="view-all">View All</a>
+      </div>
+      <div class="card-grid" id="nature-protection"></div>
+    </section>
+
+    <!-- Extra Tips -->
+    <section class="section">
+      <h2>Adventure Tips, Camping Guides & More</h2>
+      <div class="card-grid" id="extra-guides"></div>
+    </section>
+
+    <!-- Help Accordion -->
+    <section class="section">
+      <h2>Need Help? We’re Here for You!</h2>
+      <div class="accordion">
+        <div class="accordion-item">
+          <button class="accordion-header">FAQs</button>
+          <div class="accordion-content">Common questions and answers...</div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-header">Accessibility Services</button>
+          <div class="accordion-content">Information on accessible facilities...</div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-header">Emergency Contact Info</button>
+          <div class="accordion-content">Emergency hotline numbers...</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter (optional component) -->
+    <section class="section newsletter">
+      <h2>Get the Latest Park Updates & Travel Tips!</h2>
+      <form id="newsletter-form">
+        <input type="email" placeholder="Enter Email" required />
+        <button type="submit" class="btn">Subscribe</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer Component -->
+  <footer id="footer"></footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>

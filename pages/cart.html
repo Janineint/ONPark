@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Cart - Ontario Parks</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header id="header"></header>
+
+  <main class="section">
+    <h1>Your Shopping Cart</h1>
+
+    <div id="cart-container">
+      <table class="cart-table">
+        <thead>
+          <tr>
+            <th>Park</th>
+            <th>Item</th>
+            <th>Type</th>
+            <th>Dates</th>
+            <th>Price</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody id="cart-items">
+          <!-- JS will inject rows -->
+        </tbody>
+      </table>
+
+      <div class="cart-summary">
+        <p><strong>Total:</strong> $<span id="cart-total">0.00</span></p>
+        <div class="cart-actions">
+          <a href="reservation-camping.html" class="btn">Continue Booking</a>
+          <a href="reservation-review.html" class="btn">Review & Checkout</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer"></footer>
+
+  <!-- Script -->
+  <script src="js/main.js"></script>
+  <script src="js/cart.js"></script>
+</body>
+</html>

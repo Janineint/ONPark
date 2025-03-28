@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "Arrowhead Park",
+      "image": "assets/images/arrowhead.jpg",
+      "location": "Huntsville, ON",
+      "description": "Explore forest trails, canoe routes, and winter skating loops.",
+      "features": ["Camping", "Canoeing", "Winter Trail"],
+      "activities": ["Hiking", "Skating", "Boating"]
+    },
+    {
+      "id": 2,
+      "name": "Bon Echo",
+      "image": "assets/images/bonecho.jpg",
+      "location": "Cloyne, ON",
+      "description": "Climb majestic cliffs and see ancient pictographs at Mazinaw Lake.",
+      "features": ["Cliff Viewing", "Guided Tours", "Pet-Friendly"],
+      "activities": ["Rock Climbing", "Swimming", "Boating"]
+    },
+    {
+      "id": 3,
+      "name": "Algonquin Park",
+      "image": "assets/images/algonquin.jpg",
+      "location": "Ontario Highlands",
+      "description": "One of Canada’s largest and most iconic parks — great for backcountry camping.",
+      "features": ["Backcountry", "Wildlife", "Fishing"],
+      "activities": ["Canoeing", "Hiking", "Stargazing"]
+    },
+    {
+      "id": 4,
+      "name": "Silver Lake",
+      "image": "assets/images/silverlake.jpg",
+      "location": "Lanark County, ON",
+      "description": "Family-friendly camping and easy access to swimming beaches.",
+      "features": ["Beaches", "Picnic Areas", "Accessible Trails"],
+      "activities": ["Swimming", "Picnicking", "Birdwatching"]
+    }
+  ]
+  

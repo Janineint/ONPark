@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reservation - Personal Information</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header id="header"></header>
+
+  <main class="section">
+    <h1>Reservation - Step 2: Personal Information</h1>
+
+    <form id="info-form" class="info-form">
+      <!-- Contact Details -->
+      <fieldset>
+        <legend>Contact Details</legend>
+
+        <div class="form-group">
+          <label for="firstName">First Name *</label>
+          <input type="text" id="firstName" name="firstName" required />
+        </div>
+
+        <div class="form-group">
+          <label for="lastName">Last Name *</label>
+          <input type="text" id="lastName" name="lastName" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address *</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number *</label>
+          <input type="tel" id="phone" name="phone" required placeholder="123-456-7890" />
+        </div>
+      </fieldset>
+
+      <!-- Mailing Address -->
+      <fieldset>
+        <legend>Mailing Address</legend>
+
+        <div class="form-group">
+          <label for="address1">Address Line 1 *</label>
+          <input type="text" id="address1" name="address1" required />
+        </div>
+
+        <div class="form-group">
+          <label for="address2">Address Line 2</label>
+          <input type="text" id="address2" name="address2" />
+        </div>
+
+        <div class="form-group">
+          <label for="city">City *</label>
+          <input type="text" id="city" name="city" required />
+        </div>
+
+        <div class="form-group">
+          <label for="province">Province *</label>
+          <select id="province" name="province" required>
+            <option value="">Select Province</option>
+            <option value="ON">Ontario</option>
+            <option value="QC">Quebec</option>
+            <option value="BC">British Columbia</option>
+            <option value="AB">Alberta</option>
+            <option value="MB">Manitoba</option>
+            <!-- Add more as needed -->
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="postal">Postal Code *</label>
+          <input type="text" id="postal" name="postal" required placeholder="A1A 1A1" />
+        </div>
+      </fieldset>
+
+      <!-- Buttons -->
+      <div class="form-actions">
+        <a href="reservation-camping.html" class="btn secondary">Back</a>
+        <button type="submit" class="btn">Continue</button>
+      </div>
+    </form>
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer"></footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/reservation.js"></script>
+</body>
+</html>

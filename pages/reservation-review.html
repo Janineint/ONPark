@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Review Your Reservation</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header id="header"></header>
+
+  <main class="section">
+    <h1>Review Your Reservation</h1>
+
+    <!-- Reservation Summary -->
+    <section class="review-section">
+      <h2>Reservation Summary</h2>
+      <table class="review-table">
+        <thead>
+          <tr>
+            <th>Park</th>
+            <th>Item</th>
+            <th>Type</th>
+            <th>Dates</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody id="review-items">
+          <!-- JS will populate -->
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Personal Info Review -->
+    <section class="review-section">
+      <h2>Your Information</h2>
+      <div class="info-group">
+        <p><strong>Full Name:</strong> <span id="review-name">Jane Camper</span></p>
+        <p><strong>Email:</strong> <span id="review-email">jane@example.com</span></p>
+        <p><strong>Phone:</strong> <span id="review-phone">123-456-7890</span></p>
+      </div>
+      <a href="reservation-info.html" class="btn small">Edit Information</a>
+    </section>
+
+    <!-- Total + Confirmation -->
+    <section class="review-section">
+      <h2>Confirm Your Booking</h2>
+      <p><strong>Total Cost:</strong> $<span id="review-total">0.00</span></p>
+      <button class="btn" onclick="confirmReservation()">Confirm Reservation</button>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer"></footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/reservation.js"></script>
+</body>
+</html>
